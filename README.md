@@ -6,7 +6,7 @@ Routing is the process of automatically finding the best available rates for any
 - Understand the fundamental concepts behind routing in web3
 - Learn about best practices in web3 development
 - Document and share our findings as much as possible
-- Build a dApp with a React frontend similar to showcase our findings
+- Build a dApp with a React frontend similar to 1inch to showcase our findings
 
 # Environment
 
@@ -18,3 +18,9 @@ You will need to install these following tools:
 - Devcontainer extension on VSCode
 
 There are multiple advantages of using a container based workflow, and you can read more on https://containers.dev/ 
+
+After installing these tools/extensions:
+- Open the project in vscode
+- Open the Command Palette and run the ```Dev Containers: Open Folder in Container``` command
+- Wait for the container to be created, and do ```npm install``` in the integrated terminal
+- Profit???
