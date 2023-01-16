@@ -16,7 +16,7 @@
 - React.js
 - Solidity + Hardhat
 ## Environment Setup
-In order to simplify the developer experience, we will be using devcontainers.
+In order to simplify the developer experience, we recommend the usage of devcontainers.
 
 ### Dependencies for running the project locally
 1. Install Node.js on your machine
