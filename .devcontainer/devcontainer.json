@@ -20,7 +20,12 @@
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
-			"extensions": ["NomicFoundation.hardhat-solidity"]
+			"extensions": [
+				"NomicFoundation.hardhat-solidity",
+				"burkeholland.simple-react-snippets",
+				"mgmcdermott.vscode-language-babel",
+				"eamodio.gitlens"
+			]
 		}
 	}
 

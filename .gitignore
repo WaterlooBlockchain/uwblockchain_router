@@ -227,3 +227,14 @@ sketch
 # yarn v2
 
 # End of https://www.toptal.com/developers/gitignore/api/node,solidity,react
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+

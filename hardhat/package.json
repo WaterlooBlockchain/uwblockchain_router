@@ -1,0 +1,22 @@
+{
+  "name": "uwblockchain_router",
+  "version": "1.0.0",
+  "description": "Router project made by UWBlockchain Club",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "hardhat",
+    "router",
+    "web3"
+  ],
+  "author": "Johnatan Gao",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.6"
+  }
+}
