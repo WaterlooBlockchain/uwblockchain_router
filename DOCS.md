@@ -9,14 +9,11 @@
     - [What is OpenZeppelin Tenderly?](#what-is-openzeppelin-tenderly)
 
 ## Project Architecture and Design Choices
--------------------------
 ## Design Patterns
 ## Technology Stack
-----------------------------
 - React.js
 - Solidity + Hardhat
 ## Environment Setup
-----------------
 In order to simplify the developer experience, we will be using devcontainers.
 
 ### Prerequesites
@@ -42,7 +39,6 @@ In order to simplify the developer experience, we will be using devcontainers.
         - ```npm install```
 
 ## OpenZeppelin
--------------------------
 ## What is OpenZeppelin
 
 ## What is OpenZeppelin Defender
