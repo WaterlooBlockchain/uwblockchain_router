@@ -1,4 +1,4 @@
-# UWBlockchain Routing Project
+# UWBlockchain Router Project
 
 Routing is the process of automatically finding the best available rates for any specific trading pair across multiple exchanges. [[1](https://help.1inch.io/en/articles/4585131-what-is-routing)]
 
