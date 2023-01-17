@@ -4,6 +4,16 @@
   padding: 2rem;
   text-align: center;
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: normal;
+}
 
 .logo {
   height: 6em;
@@ -17,25 +27,11 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.connect {
+  align-self: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.convertArea{
+  display: flex;
+  flex-direction: row;
 }
