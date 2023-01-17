@@ -11,3 +11,5 @@ Routing is the process of automatically finding the best available rates for any
 # Environment
 Please refer to the [Environment Setup](https://github.com/blockchainuw/uwblockchain_router/blob/main/DOCS.md) section in ```DOCS.md```
 
+# Try it now
+This project is still a work in progress, but you can try out a preview here: https://extraordinary-eclair-b72025.netlify.app/
