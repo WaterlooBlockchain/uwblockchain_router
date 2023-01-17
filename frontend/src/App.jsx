@@ -1,34 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useEffect, useState } from "react";
 
+import "./App.css";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+import uniAbi from "./abi/Uniswap.json";
+import { ethers } from "ethers";
+const UNISWAP_ADDRESS = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D";
+// import { useSigner } from "wagmi";
+import { useProvider } from "wagmi";
+import { useAccount } from "wagmi";
 function App() {
-  const [count, setCount] = useState(0)
+  const [weth, setWeth] = useState("");
 
+  const provider = useProvider();
+  const uni = new ethers.Contract(UNISWAP_ADDRESS, uniAbi, provider); // address, abi, provider/signer
+
+  useEffect(() => {
+    async function load() {
+      setWeth(await uni.WETH());
+    }
+
+    load();
+  });
   return (
     <div className="App">
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://www.uwblockchain.ca/" target="_blank">
+          <img src="/icon.webp" className="logo" alt="UWBC" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>UW Blockchain Router</h1>
+      <ConnectButton className="connect" />
+      <h3>{weth}</h3>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
