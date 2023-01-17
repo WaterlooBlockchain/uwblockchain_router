@@ -14,6 +14,7 @@ h3 {
   font-size: 25px;
   font-weight: normal;
 }
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -28,4 +29,9 @@ h3 {
 
 .connect {
   align-self: center;
+}
+
+.convertArea{
+  display: flex;
+  flex-direction: row;
 }
