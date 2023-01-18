@@ -18,6 +18,8 @@
 ## Environment Setup
 In order to simplify the developer experience, we recommend the usage of devcontainers.
 
+The main advantage of using devcontainers is to insure a consistent development environment for everyone.
+
 ### Dependencies for running the project locally
 1. Install Node.js on your machine
     - [Windows](https://nodejs.org/en/download/)
@@ -47,13 +49,7 @@ In order to simplify the developer experience, we recommend the usage of devcont
 1. Open the project in VSCode
 2. Quick start: Open an existing folder in a container ([Tutorial](https://code.visualstudio.com/docs/devcontainers/containers))
     - Start VS Code, run the ```Dev Containers: Open Folder in Container...``` command (or something similar) from the Command Palette (F1 or Command-Shift-P for Mac users) or quick actions Status bar item, and select the project folder you would like to set up the container for.
-3. After the container has started, from the root project folder:
-    - Frontend:
-        - ```cd frontend/```
-        - ```npm install && npm run dev```
-    - Hardhat:
-        - ```cd hardhat/```
-        - ```npm install```
+3. After the container has started, all the dependencies should be installed automatically, and the react client should launch
 
 ## OpenZeppelin
 ## What is OpenZeppelin
