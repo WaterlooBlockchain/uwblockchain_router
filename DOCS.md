@@ -25,7 +25,7 @@ In order to simplify the developer experience, we recommend the usage of devcont
     - [Linux](https://nodejs.org/en/download/package-manager/) (Make sure to select the right package manager for your distro)
 
 ### How to launch the project locally
-1. From the root project folder:
+1. From the root project folder open a terminal:
     - Frontend:
         - ```cd frontend/```
         - ```npm install && npm run dev```
